@@ -54,6 +54,8 @@ gender1 = Radiobutton(screen, text="Woman", variable=gender, value="woman", font
 gender2 = Radiobutton(screen, text="Man", variable=gender, value="man", font=("Calibri", 14), bg= "#235489", fg= "#ffffff", activebackground="#1f2421", activeforeground="#ff6f59").place(x= 250, y=350)
 
 
+gender3 = Radiobutton(screen, text="Prefer to not say", variable=gender, value="not_say", font=("Calibri", 14), bg= "#235489", fg= "#ffffff", activebackground="#1f2421", activeforeground="#ff6f59").place(x= 350, y=350)
+
 
 
 
